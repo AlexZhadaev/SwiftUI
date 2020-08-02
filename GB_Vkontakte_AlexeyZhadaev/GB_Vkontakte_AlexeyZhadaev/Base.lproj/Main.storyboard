@@ -188,7 +188,7 @@
             </objects>
             <point key="canvasLocation" x="3183" y="425"/>
         </scene>
-        <!--Table View Controller-->
+        <!--Друзья-->
         <scene sceneID="RvE-DZ-n5y">
             <objects>
                 <tableViewController id="bE2-Xu-qAs" customClass="TableViewController" customModule="GB_Vkontakte_AlexeyZhadaev" customModuleProvider="target" sceneMemberID="viewController">
@@ -214,7 +214,7 @@
                             <outlet property="delegate" destination="bE2-Xu-qAs" id="ZpE-xe-bv5"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="rjD-Y0-yB9"/>
+                    <navigationItem key="navigationItem" title="Друзья" id="rjD-Y0-yB9"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I0q-DD-eFI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

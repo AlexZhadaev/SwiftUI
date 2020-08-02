@@ -13,11 +13,11 @@
 		35A3BAE924D20AD500933891 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35A3BAE824D20AD500933891 /* Assets.xcassets */; };
 		35A3BAEC24D20AD500933891 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35A3BAEA24D20AD500933891 /* LaunchScreen.storyboard */; };
 		35A3BAF424D20B5000933891 /* LoginFormController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A3BAF324D20B5000933891 /* LoginFormController.swift */; };
-		35F2789E24D7175500635114 /* FriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F2789D24D7175500635114 /* FriendsTableViewController.swift */; };
 		35F278A024D7178200635114 /* MyGroupTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F2789F24D7178200635114 /* MyGroupTableViewController.swift */; };
 		35F278A224D7178D00635114 /* FindGroupTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F278A124D7178D00635114 /* FindGroupTableViewController.swift */; };
 		35F278A424D717A700635114 /* FriendPhotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F278A324D717A700635114 /* FriendPhotoCollectionViewController.swift */; };
 		35F278A624D717D200635114 /* TabbarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F278A524D717D200635114 /* TabbarViewController.swift */; };
+		35FEACA324D7424E00451AB3 /* FriendsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35FEACA224D7424E00451AB3 /* FriendsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,11 +29,11 @@
 		35A3BAEB24D20AD500933891 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		35A3BAED24D20AD500933891 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		35A3BAF324D20B5000933891 /* LoginFormController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginFormController.swift; sourceTree = "<group>"; };
-		35F2789D24D7175500635114 /* FriendsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewController.swift; sourceTree = "<group>"; };
 		35F2789F24D7178200635114 /* MyGroupTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGroupTableViewController.swift; sourceTree = "<group>"; };
 		35F278A124D7178D00635114 /* FindGroupTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindGroupTableViewController.swift; sourceTree = "<group>"; };
 		35F278A324D717A700635114 /* FriendPhotoCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendPhotoCollectionViewController.swift; sourceTree = "<group>"; };
 		35F278A524D717D200635114 /* TabbarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarViewController.swift; sourceTree = "<group>"; };
+		35FEACA224D7424E00451AB3 /* FriendsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,8 +71,8 @@
 				35A3BAF324D20B5000933891 /* LoginFormController.swift */,
 				35A3BAE524D20AD300933891 /* Main.storyboard */,
 				35F278A524D717D200635114 /* TabbarViewController.swift */,
-				35F2789D24D7175500635114 /* FriendsTableViewController.swift */,
 				35F278A324D717A700635114 /* FriendPhotoCollectionViewController.swift */,
+				35FEACA224D7424E00451AB3 /* FriendsTableViewController.swift */,
 				35F2789F24D7178200635114 /* MyGroupTableViewController.swift */,
 				35F278A124D7178D00635114 /* FindGroupTableViewController.swift */,
 				35A3BAE824D20AD500933891 /* Assets.xcassets */,
@@ -156,11 +156,11 @@
 				35F278A624D717D200635114 /* TabbarViewController.swift in Sources */,
 				35F278A024D7178200635114 /* MyGroupTableViewController.swift in Sources */,
 				35F278A224D7178D00635114 /* FindGroupTableViewController.swift in Sources */,
+				35FEACA324D7424E00451AB3 /* FriendsTableViewController.swift in Sources */,
 				35A3BAF424D20B5000933891 /* LoginFormController.swift in Sources */,
 				35A3BAE024D20AD300933891 /* AppDelegate.swift in Sources */,
 				35F278A424D717A700635114 /* FriendPhotoCollectionViewController.swift in Sources */,
 				35A3BAE224D20AD300933891 /* SceneDelegate.swift in Sources */,
-				35F2789E24D7175500635114 /* FriendsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
