@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		356F8B8E24DB4F4E001C89BA /* FindGroupsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356F8B8D24DB4F4D001C89BA /* FindGroupsController.swift */; };
+		356F8B9024DB4F64001C89BA /* FindGroupsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 356F8B8F24DB4F64001C89BA /* FindGroupsCell.swift */; };
 		35A3BAE024D20AD300933891 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A3BADF24D20AD300933891 /* AppDelegate.swift */; };
 		35A3BAE224D20AD300933891 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A3BAE124D20AD300933891 /* SceneDelegate.swift */; };
 		35A3BAE724D20AD300933891 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35A3BAE524D20AD300933891 /* Main.storyboard */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		356F8B8D24DB4F4D001C89BA /* FindGroupsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindGroupsController.swift; sourceTree = "<group>"; };
+		356F8B8F24DB4F64001C89BA /* FindGroupsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindGroupsCell.swift; sourceTree = "<group>"; };
 		35A3BADC24D20AD300933891 /* GB_Vkontakte_AlexeyZhadaev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GB_Vkontakte_AlexeyZhadaev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35A3BADF24D20AD300933891 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		35A3BAE124D20AD300933891 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 		356F8B8C24DB4D72001C89BA /* FindGroups */ = {
 			isa = PBXGroup;
 			children = (
+				356F8B8D24DB4F4D001C89BA /* FindGroupsController.swift */,
+				356F8B8F24DB4F64001C89BA /* FindGroupsCell.swift */,
 			);
 			path = FindGroups;
 			sourceTree = "<group>";
@@ -167,8 +173,10 @@
 			files = (
 				35F278A624D717D200635114 /* TabbarViewController.swift in Sources */,
 				35A3BAF424D20B5000933891 /* LoginFormController.swift in Sources */,
+				356F8B9024DB4F64001C89BA /* FindGroupsCell.swift in Sources */,
 				35A3BAE024D20AD300933891 /* AppDelegate.swift in Sources */,
 				35A3BAE224D20AD300933891 /* SceneDelegate.swift in Sources */,
+				356F8B8E24DB4F4E001C89BA /* FindGroupsController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
